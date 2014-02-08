@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<mosinstall type="module" version="4.5.1">
+    <name>MosPrayer Latest X</name>
+    <creationDate>05/02/2010</creationDate>
+    <author>Chanh Ong</author>
+    <copyright>This module is released under the GNU/GPL License</copyright>    
+    <authorEmail>ongetc@ongetc.com</authorEmail>
+    <authorUrl>OngETC.com</authorUrl>
+    <version>2.0.8</version>
+    <description><![CDATA[
+	MosPrayer Latest X uses these _PRY_R_POST, _PRY_R_DATE_ON and _PRY_R_DATE_AT from MosPrayer language file to display the prayer meta text. (requires MosPrayer 1.0f+)<p />(see MosPrayer readme.txt for more detail)
+ <p />Support COAddOns in making a small donation!
+ <p />
+<a href="https://www.paypal.com/xclick/business=chanh.ong@gmail.com&item_name=Donation+for+MosPrayer&no_shipping=1&tax=0&currency_code=USD" target="_blank">
+<img src="https://www.paypal.com/en_US/i/btn/x-click-butcc-donate.gif" alt="Pay with PayPal - It's fast, free and save!" border="0"></a>
+]]></description>
+    <files>
+      <filename module="mod_mosprayerlatesx">mod_mosprayerlatesx.php</filename>
+    </files>
+    <params>
+		<param name="number_posts" type="text" default="5" label="Number of posts" description="Number of article that has new prayer request to show" />
+		<param name="max_length" type="text" default="" label="Max. length" description="Maximum length of posts before truncated" />
+	<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="A suffix to be applied to the css class of the module (moduletable_sfx), this allows individual module styling" />
+	</params>
+  </mosinstall>
